@@ -11,6 +11,6 @@ cv2.imwrite(output_path,output)       #to write output photo without BG
 
 cv2.imshow("w.png",output)            #show photo after remove BG with same name of output_path
 
-if cv2.waitkey(0) & 0Xff==ord("h"):
-    cv2.close()
-    cv2.destroyAllWindows()
+# if cv2.waitkey(0) & 0Xff==ord("h"):
+#     cv2.close()
+#     cv2.destroyAllWindows()          #to close windows
